@@ -48,7 +48,7 @@ body {
         height: 80px;
         /* debug */
         background-color: aqua;
-        
+
     }
 
     .mid_nav,
@@ -133,6 +133,75 @@ body {
     padding: 10px;
     /* debug */
     background-color: blueviolet;
+    border: 1px solid white;
+}
+
+/* PARTNER LOGO SECTION */
+.lft_logo_box,
+.mid_logo_box,
+.rgt_logo_box {
+    width: calc(100% / 3);
+
+    /* debug */
+    height: 40em;
+    /* background-color: rgb(67, 181, 112); */
+    border: 2px solid black;
+}
+
+.lft_logo_box img {
+    display: block;
+}
+
+.mid_logo_box {
+    background-color: #F5F5F5;
+}
+/* logo background color */
+.light_green {
+    background-color: #D1E9CD;
+    width: calc(100% / 2); 
+}
+
+.green {
+     background-color: #A2D39B;
+}
+
+.ruby {
+    background-color: #61082B;
+    width: calc(100% / 2);
+}
+
+.azure {
+    background-color: #0093CE;
+    width: calc(100% / 2);
+}
+
+.red {
+    background-color: #FF1C1C;
+    width: calc(100% / 2);
+}
+
+.deep_ruby {
+    background-color: #D5001F;
+    width: calc(100% / 2);
+}
+
+.cyan {
+    background-color: var(--cyan);
+    width: calc(100% / 2);
+}
+
+.blue {
+    background-color: #0D2481;
+    width: calc(100% / 2);
+}
+
+.yellow {
+    background-color: #FFD830;
+    width: calc(100% / 2);
+}
+
+/* DEBUG BORDER */
+.deb_border {
     border: 1px solid white;
 }
 
