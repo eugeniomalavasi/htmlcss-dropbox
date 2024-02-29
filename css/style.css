@@ -27,6 +27,9 @@ img {
     display: flex;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
 /* colors */
 :root {
     --cyan: #B4D0E7;
@@ -45,6 +48,7 @@ body {
         height: 80px;
         /* debug */
         background-color: aqua;
+        
     }
 
     .mid_nav,
@@ -108,5 +112,19 @@ body {
     background-color: black;
 }
 
+/* FEATURES */
+/* six column part */
+.six_clmn {
+    /* debug */
+    height: 1000px;
+}
+
+.feat_card {
+    width: calc(100% / 3);
+    padding: 10px;
+    /* debug */
+    background-color: blueviolet;
+    border: 1px solid white;
+}
 
 /* FOOTER */
