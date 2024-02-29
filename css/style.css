@@ -13,16 +13,23 @@ img {
 /* layout */
 .large_container {
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
+    max-width: 1100px;
 }
 
 .small_container {
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
+    max-width: 1100px;
 }
 
 .flex {
     display: flex;
+}
+
+/* colors */
+:root {
+    --cyan: #B4D0E7;
 }
 
 /* typo */
@@ -35,9 +42,9 @@ body {
 /* header */
     .nav_container {
         align-items: center;
+        height: 80px;
         /* debug */
         background-color: aqua;
-        height: 80px;
     }
 
     .mid_nav,
@@ -52,5 +59,54 @@ body {
     .mid_nav {
         background-color: red;
     }
+
+/* hero section */
+    .hero_box {
+        padding-top: 85px;
+        /* debug */
+        background-color: var(--cyan);
+    }
+
+    .hero {
+        /* debug */
+        background-color: blueviolet;
+        height: 600px;
+    }
+
+/* main content container */
+.clm_box {
+    /* debug */
+    border: 2px solid black;
+}
+
+/* THREE CLMN PART */
+.three_clm_box {
+    /* debug */
+    background-color: rgb(89, 34, 137);
+    height: 600px;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: calc(100% / 3);
+    /* debug */
+    background-color: aquamarine;
+    border: 1px solid white;
+}
+
+/* TWO COLUMN PART */
+.two_clm_box {
+    margin-bottom: 150px;
+    /* debug */
+    background-color: red;
+    height: 250px;
+}
+
+.big_card {
+    width: 60%;
+    /* denbug */
+    background-color: black;
+}
+
 
 /* FOOTER */
