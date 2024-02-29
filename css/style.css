@@ -149,7 +149,7 @@ body {
     width: calc(100% / 3);
 
     /* debug */
-    height: 40em;
+    height: 50vw;
     /* background-color: rgb(67, 181, 112); */
     border: 2px solid black;
 }
@@ -162,13 +162,23 @@ body {
     background-color: #F5F5F5;
 }
 /* logo background color */
-.light_green {
-    background-color: #D1E9CD;
-    width: calc(100% / 2); 
-}
+
 
 .green {
-     background-color: #A2D39B;
+    position: relative;
+    width: calc(100% / 2);
+    background-color: #A2D39B;
+    
+}
+
+.green::after {
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    content: "";
+    background-color: pink;
+    position: absolute;
+    display: block;
 }
 
 .ruby {
@@ -217,6 +227,24 @@ body {
     height: 400px;
     background-color: #A2D39B;
     margin-top: 150px;
+}
+
+.question {
+    position: relative;
+    border-top: 1px solid black;
+    background-color: white;
+    padding: 30px;
+}
+
+.hover_answ {
+    position: absolute;
+    top: 0;
+}
+
+/* hover */
+.question:hover .hover_answ {
+    position: relative;
+    top: 10px;
 }
 
 /* FOOTER */
