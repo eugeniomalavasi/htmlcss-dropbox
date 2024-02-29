@@ -112,9 +112,18 @@ body {
     background-color: black;
 }
 
+/* ONE COLUMN PART */
+.top_one_clmn {
+    margin-bottom: 150px;
+    /* debug */
+    background-color: orange;
+    height: 250px;
+}
+
 /* FEATURES */
 /* six column part */
 .six_clmn {
+    margin-bottom: 150px;
     /* debug */
     height: 1000px;
 }
