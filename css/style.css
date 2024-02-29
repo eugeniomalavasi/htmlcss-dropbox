@@ -20,6 +20,37 @@ img {
     margin: 0 auto;
     width: 70%;
 }
+
+.flex {
+    display: flex;
+}
+
+/* typo */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* MAIN */
+
+/* header */
+    .nav_container {
+        align-items: center;
+        /* debug */
+        background-color: aqua;
+        height: 80px;
+    }
+
+    .mid_nav,
+    .rgt_nav,
+    .lft_nav {
+        width: calc(100% / 3);
+        /* debug */
+        background-color: orange;
+        height: 100%;
+    }
+
+    .mid_nav {
+        background-color: red;
+    }
 
 /* FOOTER */
