@@ -62,6 +62,11 @@ margin-bottom: 150px;
 .pos_rel {
     position: relative;
 }
+
+.pos_abs {
+    position: absolute;
+}
+
 .primary_button {
     background-color:  var(--button-primary-color);
     color: white;
@@ -69,6 +74,9 @@ margin-bottom: 150px;
     border: none;
 }
 
+.p-t-15 {
+    padding-top: 1.5em;
+}
 /* header */
     header {
         position: fixed;
@@ -180,16 +188,19 @@ margin-bottom: 150px;
 
 .card_main ul li {
     font-size: 0.8rem;
-    padding: 2em 0;
+    padding: 1.3em 0;
 }
 
 .buy_now {
     font-size: 0.8rem;
+    padding-bottom: 1.5em;
 }
 
 .card_main {
     flex-direction: column;
 }
+
+
 /* TWO COLUMN PART */
 .big_card {
     width: 60%;   
@@ -202,19 +213,21 @@ margin-bottom: 150px;
 
 /* ONE COLUMN PART */
 .top_one_clmn {
-    /* debug */
-    background-color: orange;
-    height: 40px;
+    border: 1px solid gray;
 }
 
 .bottom_one_clmn {
-    margin-bottom: 150px;
-    /* debug */
-    height: 200px;
-    background-color: #0093CE;
+}
+.one_clmn_box .flex {
+    border: 1px solid gray;
+    padding: 2.5em;
 }
 
-/* FEATURES */
+.left_button {
+    display: flex;
+    justify-content: flex-end;
+}
+    /* FEATURES */
 /* six column part */
 .six_clmn {
     margin-bottom: 150px;
