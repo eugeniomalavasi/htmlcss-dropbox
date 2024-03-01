@@ -293,19 +293,24 @@ margin-bottom: 150px;
     padding: 2em;
 }
 
-.partner_container > div > img {
+.partner_container > div > .square {
     aspect-ratio: 1 / 1;
 }
 
-/* logo background color */
-.white_filter {
-    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(269deg) brightness(104%) contrast(103%);
+.square {
+    justify-content: center;
+    align-items: center;
 }
+/* logo background color */
 
 .logo_style {
     width: 50%;
 }
 
+.filter {
+    filter: invert(1);
+    width: 50%;
+}
 
 .green {
     position: relative;
