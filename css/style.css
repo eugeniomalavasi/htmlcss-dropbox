@@ -129,6 +129,15 @@ margin-bottom: 150px;
 
 
 /* THREE CLMN PART */
+.small_container.clm_box {
+    padding-top: 8em;
+}
+
+.radio_buttons,
+.small_container h2 {
+    padding-bottom: 3em;
+}
+
 .three_clm_box {
     justify-content: space-between;
     /* debug */
@@ -144,9 +153,14 @@ margin-bottom: 150px;
     border: 1px solid white;
 }
 
+.top_clmn_card {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid gray;
+}
+
 /* TWO COLUMN PART */
-
-
 .big_card {
     width: 60%;
     
