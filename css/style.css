@@ -53,12 +53,19 @@ h1 {
 
 .text {
     line-height: 1.3rem;
+    font-size: 0.9rem;
 }
 
 .descr_text {
     font-size: 0.9rem;
     line-height: 1.1rem;
 }
+
+.feat_title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
 /* utilities */
 .m-t-150 {
 margin-bottom: 150px;
@@ -261,21 +268,20 @@ margin-bottom: 150px;
 
 .feat_card {
     width: calc(100% / 3);
-    padding: 10px;
+    padding: 15px;
+    flex-direction: column;
     /* debug */
-    background-color: blueviolet;
     border: 1px solid white;
 }
 
+.row-30 {
+    width: 30%;
+}
 /* PARTNER LOGO SECTION */
 .lft_logo_box,
 .mid_logo_box,
 .rgt_logo_box {
     width: calc(100% / 3);
-
-    /* debug */
-    /* background-color: rgb(67, 181, 112); */
-    border: 2px solid black;
 }
 
 .lft_logo_box img {
@@ -284,6 +290,7 @@ margin-bottom: 150px;
 
 .mid_logo_box {
     background-color: #F5F5F5;
+    padding: 2em;
 }
 
 .partner_container > div > img {
@@ -291,6 +298,13 @@ margin-bottom: 150px;
 }
 
 /* logo background color */
+.white_filter {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(269deg) brightness(104%) contrast(103%);
+}
+
+.logo_style {
+    width: 50%;
+}
 
 
 .green {
