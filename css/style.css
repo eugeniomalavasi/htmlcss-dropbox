@@ -352,8 +352,16 @@ margin-bottom: 150px;
 /* BANNER CLAIM PART */
 .claim_box {
     background-color: var(--cyan);
+    padding: 8em 0;
 }
 
+.small_card>.secondary_button {
+    border: none;
+}
+
+.two_clm_box .big_card .sub_title {
+    color: #61082B;
+}
 /* FAQ PART */
 .faq_text_box {
     /* debug */
