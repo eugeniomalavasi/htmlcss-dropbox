@@ -42,7 +42,7 @@ ul {
 
 /* typo */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -139,18 +139,14 @@ margin-bottom: 150px;
 }
 
 .three_clm_box {
-    justify-content: space-between;
-    /* debug */
-    background-color: rgb(89, 34, 137);
-    height: 600px;
+    justify-content: space-between; 
     margin-bottom: 30px;
 }
 
 .card {
     width: 30%;
+    border: 1px solid gray;
     /* debug */
-    background-color: aquamarine;
-    border: 1px solid white;
 }
 
 .top_clmn_card {
@@ -160,10 +156,43 @@ margin-bottom: 150px;
     border-bottom: 1px solid gray;
 }
 
+.bottom_clmn_card {
+    padding: 2em;
+}
+
+.card_header {
+    padding: 2em 0;
+}
+
+.sub_title {
+    font-weight: 600;
+    font-size: 1.5rem
+}
+
+.price {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.period {
+    color: gray;
+}
+
+.card_main ul li {
+    font-size: 0.8rem;
+    padding: 2em 0;
+}
+
+.buy_now {
+    font-size: 0.8rem;
+}
+
+.card_main {
+    flex-direction: column;
+}
 /* TWO COLUMN PART */
 .big_card {
-    width: 60%;
-    
+    width: 60%;   
 }
 
 .small_card {
