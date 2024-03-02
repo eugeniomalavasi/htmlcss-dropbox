@@ -209,6 +209,8 @@ margin-bottom: 150px;
 .card_main ul li {
     font-size: 0.8rem;
     padding: 1.3em 0;
+    display: flex;
+    gap: 5px;
 }
 
 .buy_now {
