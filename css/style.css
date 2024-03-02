@@ -215,6 +215,12 @@ margin-bottom: 150px;
     .dropbox_logo {
         margin-top: 25px;
     }
+
+    /* hover nav menu */
+
+    .nav_container li:hover {
+        border-bottom: 1px solid var(--button-primary-color);
+    }
     /* MAIN */
     main {
         padding-top: 80px;
