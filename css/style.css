@@ -110,6 +110,11 @@ margin-bottom: 150px;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.primary_button:hover {
+background-color: #649efc;
 }
 
 .p-t-15 {
@@ -356,7 +361,12 @@ margin-bottom: 150px;
     color: black;
     padding: 10px 15px;
     border: 1px solid black;
+    border-radius: 5px;
 }
+
+.secondary_button:hover {
+    background-color: #649efc;
+    }
 
 .right_part {
     padding: 2em;
