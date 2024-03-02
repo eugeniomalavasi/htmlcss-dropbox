@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth
 }
 
 img {
@@ -262,7 +263,7 @@ background-color: #649efc;
 
 /* THREE CLMN PART */
 .small_container.clm_box {
-    padding-top: 8em;
+    padding-top: 2em;
 }
 
 .radio_buttons,
@@ -534,4 +535,8 @@ footer {
 .bottom_footer_part span {
     display: inline-block;
     padding: 2em 0;
+}
+
+.footer_list a:hover li {
+    color: var(--button-primary-color);
 }
