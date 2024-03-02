@@ -431,8 +431,13 @@ footer {
 
 
 .bottom_footer_part {
-    /* debug */
-    background-color: #FF1C1C;
-    height: 80px;
+    color: white;
+    border-top: 1px solid white;
+    padding: 2em 0;
+    font-size: 0.6rem;
+}
+
+.minichevron {
+    font-size: 0.4rem;
 }
 
