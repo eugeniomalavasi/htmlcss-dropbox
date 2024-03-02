@@ -13,6 +13,14 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_style {
+    font-size: 0.7rem;
+}
 /* COMMON */
 /* layout */
 .large_container {
@@ -29,6 +37,11 @@ ul {
 
 .flex {
     display: flex;
+}
+
+.flex_clmn {
+    display: flex;
+    flex-direction: column;
 }
 
 .wrap {
@@ -410,10 +423,12 @@ footer {
 }
 
 .footer_link {
-    width: calc(100% / 5);
+    width: 20%;
     padding: 30px 0;
     color: white;
+    line-height: 1.5rem;
 }
+
 
 .bottom_footer_part {
     /* debug */
