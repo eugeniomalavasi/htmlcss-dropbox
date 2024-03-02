@@ -239,6 +239,8 @@ margin-bottom: 150px;
 }
 
 .bottom_one_clmn {
+    display: flex;
+    flex-direction: column;
 }
 .one_clmn_box .flex {
     border: 1px solid gray;
