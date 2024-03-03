@@ -237,7 +237,6 @@ background-color: #649efc;
 /* hero section */
     .hero_box {
         padding-top: 70px;
-        /* debug */
         background-color: var(--cyan);
     }
     .hero_img {
@@ -282,7 +281,7 @@ background-color: #649efc;
 .card {
     width: 30%;
     border: 1px solid gray;
-    /* debug */
+    
 }
 
 .top_clmn_card {
@@ -337,7 +336,6 @@ background-color: #649efc;
 }
 
 .small_card {
-    /* debug */
     width: 40%;
 }
 
@@ -379,16 +377,13 @@ background-color: #649efc;
 /* six column part */
 .six_clmn {
     margin-bottom: 150px;
-    /* debug */
-    height: 1000px;
+    
 }
 
 .feat_card {
     width: calc(100% / 3);
     padding: 15px;
     flex-direction: column;
-    /* debug */
-    border: 1px solid white;
 }
 
 .row-30 {
@@ -401,22 +396,19 @@ background-color: #649efc;
     width: calc(100% / 3);
 }
 
-.lft_logo_box img {
-    display: block;
-}
-
 .mid_logo_box {
     background-color: #F5F5F5;
     padding: 2em;
 }
 
 .partner_container > div > .square {
-    aspect-ratio: 1 / 1;
+    
 }
 
 .square {
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
 }
 
 .main_text {
@@ -425,12 +417,12 @@ background-color: #649efc;
 /* logo background color */
 
 .logo_style {
-    width: 50%;
+    width: 70%;
 }
 
 .filter {
     filter: invert(1);
-    width: 50%;
+    width: 70%;
 }
 
 .green {
@@ -490,7 +482,6 @@ background-color: #649efc;
 }
 /* FAQ PART */
 .faq_text_box {
-    /* debug */
     margin-top: 150px;
 }
 
@@ -509,7 +500,7 @@ background-color: #649efc;
 }
 .answ {
     display: none;
-    padding: 30px 30px 100px 30px;
+    padding: 30px 30px 80px 30px;
     color: rgb(65, 0, 242);
     border-bottom: 1px solid black;
 }
@@ -525,7 +516,6 @@ background-color: #649efc;
 }
 
 /* FOOTER */
-
 footer {
     background-color: black;
     margin-top: 150px;
