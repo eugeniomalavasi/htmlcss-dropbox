@@ -270,7 +270,7 @@ background-color: #649efc;
 
 .radio_buttons,
 .small_container h2 {
-    padding-bottom: 2em;
+    padding: 2em 0;
 }
 
 .three_clm_box {
@@ -402,13 +402,12 @@ background-color: #649efc;
 }
 
 .partner_container > div > .square {
-    
+    aspect-ratio: 1 / 1;
 }
 
 .square {
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1 / 1;
 }
 
 .main_text {
