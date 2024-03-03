@@ -122,6 +122,9 @@ background-color: #649efc;
     padding-top: 1.5em;
 }
 
+.p-lft-1em {
+    padding-left: 1em;
+}
 .p-t-9 {
     padding-top: 9em;
 }
@@ -491,20 +494,33 @@ background-color: #649efc;
     margin-top: 150px;
 }
 
+.faq_text_box h2 {
+    border-bottom: 1px solid black;
+} 
 .question {
-    position: relative;
-    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     background-color: white;
     padding: 30px;
+}
+
+
+.question .flex {
+    justify-content: space-between;
+}
+.answ {
+    display: none;
+    padding: 30px 30px 100px 30px;
+    color: rgb(65, 0, 242);
+    border-bottom: 1px solid black;
+}
+
+.answ .flex {
     justify-content: space-between;
 }
 
-.answ {
-    display: none;
-}
 
 /* hover */
-.question:hover .answ {
+.hover_faq:hover .answ {
     display: block;
 }
 
