@@ -542,6 +542,6 @@ footer {
     padding: 2em 0;
 }
 
-.footer_list a:hover li {
+.footer_list li:hover a {
     color: var(--button-primary-color);
 }
