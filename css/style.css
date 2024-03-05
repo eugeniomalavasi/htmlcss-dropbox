@@ -412,9 +412,6 @@ background-color: #649efc;
     align-items: center;
 }
 
-.main_text {
-    padding-top: 2em;
-}
 /* logo background color */
 
 .logo_style {
@@ -474,10 +471,6 @@ background-color: #649efc;
     padding: 8em 0;
 }
 
-.small_card>.secondary_button {
-    border: none;
-}
-
 .two_clm_box .big_card .sub_title {
     color: #61082B;
 }
@@ -495,6 +488,9 @@ background-color: #649efc;
     padding: 30px;
 }
 
+.claim_box .secondary_button {
+    border: none;
+}
 
 .question .flex {
     justify-content: space-between;
