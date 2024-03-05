@@ -377,6 +377,7 @@ background-color: #649efc;
 /* six column part */
 .six_clmn {
     margin-bottom: 150px;
+    justify-content: center;
     
 }
 
@@ -404,6 +405,7 @@ background-color: #649efc;
 .partner_container > div > .square {
     aspect-ratio: 1 / 1;
 }
+
 
 .square {
     justify-content: center;
@@ -501,7 +503,6 @@ background-color: #649efc;
     display: none;
     padding: 30px 30px 80px 30px;
     color: rgb(65, 0, 242);
-    border-bottom: 1px solid black;
 }
 
 .answ .flex {
@@ -513,6 +514,7 @@ background-color: #649efc;
 .hover_faq:hover .answ {
     display: block;
 }
+
 
 /* FOOTER */
 footer {
